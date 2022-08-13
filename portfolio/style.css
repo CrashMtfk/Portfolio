@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header{
+  background-color: #686A78;
+  width: 1920px;
+  height: 1024px;
+}
+
+nav {
+  width: 1000px;
+  height: 100px;
+  margin-left: 420px;
+}
+
+header img {
+  width: 400px;
+  height: 400px;
+}
+
+.about-me{
+  background-color: #333333;
+  width: 1920px;
+  height: 1024px;
+}
+
