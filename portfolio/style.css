@@ -6,17 +6,37 @@
 	font: inherit;
 	vertical-align: baseline;
 }
-
-header{
+.start-container{
   background-color: #686A78;
   width: 1920px;
   height: 1024px;
+  padding-top: 30px;
 }
 
 nav {
   width: 1000px;
   height: 100px;
   margin-left: 420px;
+  border: 1px solid red;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+
+nav ul li a {
+  padding: 75px;
+
+  text-decoration: none;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #FFFFFA;
 }
 
 header img {
