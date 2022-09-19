@@ -8,7 +8,7 @@
 }
 .start-container{
   background-color: #686A78;
-  width: 1920px;
+  width: 1900px;
   height: 1024px;
   padding-top: 30px;
 }
@@ -16,14 +16,15 @@
 .header-content {
   width: 1000px;
   height: 900px;
-  margin-left: 420px;
-
+  margin-left: 400px;
+  display: grid;
+  justify-content: center;
 }
 
 nav {
   width: 1000px;
   height: 100px;
-  margin-left: 420px;
+  margin-left: 400px;
 }
 
 nav ul {
@@ -44,14 +45,29 @@ nav ul li a {
   color: #FFFFFA;
 }
 
-header img {
+.header-content .me-picture {
   width: 400px;
   height: 400px;
+  border-radius: 100px 100px 0px 0px;
+  border: 3px solid #333333;
+}
+
+.personal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-links img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .about-me{
   background-color: #333333;
-  width: 1920px;
+  width: 1900px;
   height: 1024px;
 }
 
