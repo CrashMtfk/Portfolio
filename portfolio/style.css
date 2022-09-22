@@ -40,8 +40,8 @@ nav ul li {
 nav ul li a {
   padding: 75px;
   text-decoration: none;
-  font-family: 'Inter';
-  font-size: 24px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
   font-weight: 700;
   line-height: 29px;
   color: #FFFFFA;
@@ -59,6 +59,7 @@ nav ul li a:hover{
 }
 
 .header-content .head-title-one {
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 29px;
@@ -67,6 +68,7 @@ nav ul li a:hover{
 }
 
 .header-content .head-title-two {
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 29px;
@@ -95,9 +97,30 @@ nav ul li a:hover{
 
 .about-me h2 {
   text-align: center;
-  font-size: 32px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
   font-weight: 700;
   line-height: 44px;
   padding-top: 30px;
+  color: #FFFFFA;
+}
+
+.about-content{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.about-content p {
+  font-family: 'Press Start 2P', cursive;
+  color: #FFFFFA;
+}
+
+.about-content h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 32px;
+  color: #FF8D5C;
 }
 
