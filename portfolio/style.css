@@ -108,7 +108,7 @@ nav ul li a:hover{
 .about-content{
   display: grid;
   grid-template-columns: 2fr 2fr;
-  grid-gap: 50px;
+  grid-gap: 50px 100px;
   width: 1000px;
   height: 900px;
   margin: auto;
@@ -127,7 +127,14 @@ nav ul li a:hover{
 }
 
 .about-content div {
+  width: 450px;
+  height: 400px;
   background-color: #686A78;
   border-radius: 20px;
+  text-align: center;
+}
+
+.about-content div p {
+  padding: 10px 10px 10px 0px;
 }
 
