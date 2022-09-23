@@ -59,7 +59,7 @@ nav ul li a:hover{
 }
 
 .header-content .head-title-one {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Tillana', cursive;
   font-size: 36px;
   font-weight: 700;
   line-height: 29px;
@@ -68,7 +68,7 @@ nav ul li a:hover{
 }
 
 .header-content .head-title-two {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Tillana', cursive;
   font-size: 36px;
   font-weight: 700;
   line-height: 29px;
@@ -108,7 +108,9 @@ nav ul li a:hover{
 .about-content{
   display: grid;
   grid-template-columns: 2fr 2fr;
-  width: 50%;
+  grid-gap: 50px;
+  width: 1000px;
+  height: 900px;
   margin: auto;
   margin-top: 50px;
 }
@@ -119,8 +121,13 @@ nav ul li a:hover{
 }
 
 .about-content h3 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Tillana', cursive;
   font-size: 32px;
   color: #FF8D5C;
+}
+
+.about-content div {
+  background-color: #686A78;
+  border-radius: 20px;
 }
 
