@@ -146,6 +146,10 @@ nav ul li a:hover{
   margin-top: 20px;
 }
 
+.about-content .aiming-container img {
+  margin-top: 20px;
+}
+
 .cv-section {
   display: flex;
   width: 1900px;
