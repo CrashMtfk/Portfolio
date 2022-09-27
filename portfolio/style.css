@@ -172,4 +172,15 @@ nav ul li a:hover{
   gap: 100px 100px;
 }
 
+.contact-section {
+  background-color: #333333;
+}
+
+
+.pl-drawing img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
