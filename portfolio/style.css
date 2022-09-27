@@ -169,7 +169,7 @@ nav ul li a:hover{
 .skills-content {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  gap: 100px 100px;
+  gap: 50px 100px;
 }
 
 .contact-section {
@@ -183,4 +183,9 @@ nav ul li a:hover{
   margin-right: auto;
 }
 
+.ps-drawing img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
