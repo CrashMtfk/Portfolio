@@ -189,12 +189,14 @@ nav ul li a:hover{
   margin-right: auto;
 }
 
+.programming-languages {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
-.programming-languages p {
-  margin-top: 75px;
-  font-size: 26px;
-  font-family: 'Press Start 2P', cursive;
-  margin-left: 300px;
-  color: #FFFFFA;
+.programming-languages img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
