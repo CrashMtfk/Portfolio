@@ -201,3 +201,13 @@ nav ul li a:hover{
   margin-right: auto;
 }
 
+.personal-skills {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.personal-skills img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
