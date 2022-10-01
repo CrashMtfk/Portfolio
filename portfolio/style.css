@@ -211,3 +211,26 @@ nav ul li a:hover{
   margin-left: auto;
   margin-right: auto;
 }
+
+.contact-section h2{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #FF8D5C;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.contact-section p {
+  font-family: 'Tillana', cursive;
+  color: #FFFFFA;
+}
+
+.contact-info {
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-bottom: 50px;
+}
+
+#email-format{
+  color: #FF8D5C;
+}
